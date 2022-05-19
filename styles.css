@@ -1,0 +1,44 @@
+.image-cropper {
+    width: 350px;
+    height: 350px;
+    position: relative;
+    overflow: hidden;
+    border-radius: 50%;
+    margin-top: 100px;
+}
+
+.rounded {
+    width: 350px;
+    height: 350px;
+    object-fit: cover;
+}
+
+.title-text {
+    font-size: 70px;
+    font-weight: bold;
+}
+
+.first {
+    float: left;
+}
+
+.second {
+    overflow: hidden;
+}
+
+.text-area {
+    width: 600px;
+    /* margin-right: 20%; */
+    /*margin-top: 5%;
+    margin-left: 40%;*/
+    margin-top: 100px;
+    color: #ebebeb;
+}
+
+.container {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    align-items: flex-end;
+    align-content: flex-end;
+}
