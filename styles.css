@@ -12,6 +12,17 @@
     object-fit: cover;
 }
 
+.resume-container {
+    position: relative;
+    overflow: hidden;
+    margin-right: 50px;
+}
+
+.resume-img {
+    width: 450px;
+    height: auto;
+}
+
 .title-text {
     font-size: 70px;
     font-weight: bold;
@@ -42,4 +53,39 @@
     align-content: flex-end;
     margin-top: 100px;
     margin-bottom: 100px;
+}
+
+.active-tab {
+    color: white;
+    background-color: #2c3e50;
+}
+
+.active-tab:hover {
+    color: white !important;
+    background-color: #4f7296 !important;
+}
+
+.tab {
+    color: black !important;
+    background-color: #e0cbbe !important;
+}
+
+.tab:hover {
+    color: black !important;
+    background-color: #f5e6de !important;
+}
+
+.dropdown-choose {
+    color: black !important;
+    background-color: #e0cbbe !important;
+}
+
+.dropdown-choose:hover {
+    color: black !important;
+    background-color: #f5e6de !important;
+}
+
+.active-choose {
+    color: black !important;
+    background-color: #fff8f3 !important;
 }

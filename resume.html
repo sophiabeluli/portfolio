@@ -29,16 +29,16 @@
             crossorigin="anonymous"
         ></script>
         <!-- Custom CSS -->
-        <link rel="stylesheet" type="text/css" href="/styles.css" />
+        <link rel="stylesheet" href="styles.css" />
         <!-- Custom CSS End -->
     </head>
-    <body>
+    <body style="background-color: #2c3e50">
         <script src="index.js"></script>
         <noscript>You need to enable JavaScript to view the full site.</noscript>
         <div>
             <!-- Image and text -->
-            <nav class="navbar navbar-light bg-light">
-                <a class="navbar-brand" href="#">
+            <nav class="navbar navbar-light justify-content-center" style="background-color: #f5e6de">
+                <a class="navbar-brand" href="index.html" style="font-size: 36px">
                     <!-- <img
                         src="/docs/4.1/assets/brand/bootstrap-solid.svg"
                         width="30"
@@ -49,18 +49,69 @@
                     Sophia Beluli
                 </a>
             </nav>
-            <ul class="nav nav-tabs justify-content-end">
+            <ul class="nav nav-tabs justify-content-center" style="background-color: #e0cbbe">
                 <li class="nav-item">
-                    <a class="nav-link active" href="index.html">Home</a>
+                    <a class="nav-link tab" href="index.html">Home</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="resume.html">Resume</a>
+                    <a class="nav-link active-tab" href="resume.html">Resume</a>
                 </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="profwork.html">Professional Work</a>
+                <!-- <li class="nav-item">
+                    <a class="nav-link" href="profwork.html" style="color: black">Professional Work</a>
+                </li> -->
+                <li class="nav-item dropdown">
+                    <a
+                        class="nav-link dropdown-toggle tab"
+                        href="index.html"
+                        id="navbarDropdown"
+                        role="button"
+                        data-toggle="dropdown"
+                        aria-haspopup="true"
+                        aria-expanded="false"
+                    >
+                        Professional Work
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown" style="background-color: #e0cbbe">
+                        <a class="dropdown-item dropdown-choose" href="tigercat.html">Tigercat Inc.</a>
+                        <a class="dropdown-item dropdown-choose" href="tekside.html">TEKSIDE.iO</a>
+                    </div>
                 </li>
             </ul>
         </div>
-        <div>resume</div>
+        <div>
+            <div class="container">
+                <div class="first resume-container">
+                    <img class="resume-img" src="images/resume_00_00.jpg" alt="Sophia Beluli" />
+                </div>
+                <div class="second text-area">
+                    <strong class="title-text">Resume</strong>
+                    <p>
+                        <strong> Download here:</strong>
+                        <a href="files/sophia_beluli_resume.pdf" download> sophia_beluli_resume.pdf </a>
+                    </p>
+
+                    <p>
+                        My academic background includes theory, algorithms, and programming. This includes knowledge of
+                        sorting algorithms, parallel programming, cloud computing, and database systems. I have used and
+                        am proficient in many languages, including C, C#, JavaScript, Python, and Java.
+                    </p>
+                    <p>
+                        While working as a co-op student at Tekside.io, I used React Native and the Shopify API to code
+                        an app that would be used to help a local coffee shop connect with their clients with ease.
+                        Taking on the app’s production taught me a lot of essential skills, including how to research,
+                        learn on my own, and manage a large project. It was a large responsibility that provided
+                        important experience in developing a project from the ground up.
+                    </p>
+                    <p>
+                        During my co-op at Tigercat I was assigned to the telematics team. I constructed large programs
+                        to organize and process the raw operational data from customer’s equipment from all over the
+                        world and created reports to assist the customer in operating and maintaining their equipment.
+                        Working at Tigercat provided me with the opportunity to learn how to do efficient code reviewing
+                        and how to ask useful and descriptive questions to optimize my ability to provide the client
+                        with the best product to serve their needs.
+                    </p>
+                </div>
+            </div>
+        </div>
     </body>
 </html>
