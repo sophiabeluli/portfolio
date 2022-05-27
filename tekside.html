@@ -49,6 +49,7 @@
                     Sophia Beluli
                 </a>
             </nav>
+            <div class="header-img header-back"></div>
             <ul class="nav nav-tabs justify-content-center" style="background-color: #e0cbbe">
                 <li class="nav-item">
                     <a class="nav-link tab" href="index.html">Home</a>
@@ -79,7 +80,103 @@
             </ul>
         </div>
         <div>
-            <div class="container"></div>
+            <div class="title-container">
+                <strong class="title-text">TEKSIDE.IO</strong>
+            </div>
+            <hr class="solid" />
+            <div class="container" style="margin-top: 25px">
+                <div class="first text-area">
+                    <strong class="header-2-text">DevOps</strong>
+                    <p>
+                        While I worked at Tekside.io, I worked on the DevOps team. This team focuses on coding marketing
+                        solutions for clients. We primarily work on communication between the clients and their
+                        customers - mainly through email. The task I was assigned was to create their first instance of
+                        their third channel of communication: push notifications.
+                    </p>
+                    <p>
+                        During my work term, I worked on creating a sample app for a local coffee shop. Through this, we
+                        gained the knowledge of app development and push notifications. This sample app could then be
+                        shown off to potential clients. It's inclusion has the potential to influence future patronage.
+                    </p>
+                </div>
+                <div class="second-img-container">
+                    <img class="graphic-img" src="images/tekside_graphic_light.png" />
+                </div>
+            </div>
+            <hr class="solid" />
+            <div class="container">
+                <div class="text-area">
+                    <strong class="header-2-text">My Work</strong>
+                    <p>During my two terms at Tekside.io, I worked on a project called the Coffee App.</p>
+                </div>
+                <div class="container">
+                    <div class="first text-area">
+                        <strong class="header-3-text">Idea</strong>
+                        <p>
+                            Tekside.io helps companies connect with their clients by offering varied channels of
+                            communication. One channel they had yet to pursue, though, was push notifications. Never
+                            having made an app before, they decided to try it out by making a prototype. This prototype
+                            was modelled after a local coffee shop in Guelph named Planet Bean. My job was to learn
+                            about app development and create this app.
+                        </p>
+                    </div>
+                    <div class="second-img-container">
+                        <img class="logo-img" src="images/PB_Logo.webp" />
+                    </div>
+                </div>
+                <div class="container" style="margin-top: 0px">
+                    <div class="first-image-container">
+                        <img class="graphic-img" src="images/1200px-React-icon.webp" />
+                    </div>
+                    <div class="second text-area">
+                        <strong class="header-3-text">Implementation</strong>
+                        <p style="text-align: right">
+                            To create the app, we used React Native for the UI, Google Firebase for the notifications,
+                            and MongoDB for saving user account information, such as keycloak tokens, addresses, and
+                            abandoned carts. I and one other employee were assigned to work on this. I handled the
+                            Shopify integration and two other tasks, and they handled push notifications.
+                        </p>
+                    </div>
+                </div>
+                <div class="container" style="margin-top: 0px">
+                    <div class="first text-area">
+                        <strong class="header-3-text">My Contribution</strong>
+                        <p>There were 3 main tasks I completed in this app:</p>
+                        <ol>
+                            <li>
+                                Shopify integration - I used Shopify's APIs to fetch products and create orders. I
+                                displayed products by Product Type, showing their title, image and lowest price. Then,
+                                upon clicking the details button, the app would display its description and various
+                                options as well. Upon choosing the options, the price would update dynamically.
+                            </li>
+                            <li>
+                                Checkout - On the checkout screen, I let the user choose from shipping or pick up for
+                                their order. For shipping, they could input an address (or choose from their saved
+                                addresses), and for pick up, they could choose from a list of existing store locations.
+                                This choice was then reflected in the order on the Shopify store. When the user is
+                                logged in to keycloak, I allow them to save addresses so checkout is easier next time.
+                                They also don't have to provide their name or email during checkout, since their account
+                                already provides that information.
+                            </li>
+                            <li>
+                                Nearest Store - I made calculations to find the nearest store and displayed it on the
+                                homepage. From the homepage, the user can click a button that redirects them to a screen
+                                with a map. This map would be focused on the nearest store, with the option to open
+                                Google Maps for directions.
+                            </li>
+                        </ol>
+                        <p>
+                            The most challenging (and fun) part of this project was the Shopify integration. I made a
+                            dummy store with all of Planet Beans products and figured out how to organize it so that the
+                            products could be displayed in a comprehensive way. Parsing the product information into a
+                            cart and then creating the orders was also fun. I enjoyed working on this project.
+                        </p>
+                    </div>
+                    <div class="second-img-container" style="align-self: center">
+                        <img class="logo-img" src="images/shopify-logo.webp" />
+                    </div>
+                </div>
+            </div>
         </div>
     </body>
 </html>

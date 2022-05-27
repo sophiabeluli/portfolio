@@ -49,6 +49,7 @@
                     Sophia Beluli
                 </a>
             </nav>
+            <div class="header-img header-back"></div>
             <ul class="nav nav-tabs justify-content-center" style="background-color: #e0cbbe">
                 <li class="nav-item">
                     <a class="nav-link tab" href="index.html">Home</a>
@@ -117,7 +118,7 @@
             </div>
             <hr class="solid" />
             <div class="container">
-                <div class="text-area" style="width: 1200px">
+                <div class="text-area">
                     <strong class="header-2-text">My Work</strong>
                     <p>
                         During my two terms at Tigercat, I completed a variety of projects. As stated previously, I
@@ -125,6 +126,61 @@
                         monitoring and maintaining telematics (TEDS). There were 4 large projects that I completed
                         during this coop that all helped me work on my skills and illustrate what I learned at school.
                     </p>
+                </div>
+                <div class="container">
+                    <div class="first text-area">
+                        <strong class="header-3-text">Data Export</strong>
+                        <p>
+                            The first project was a data export utility. It would take the data stored on a machine
+                            export it to CSV or XML formats in excel. To accomplish this, I had to make my own XML
+                            generator and XML style generator. To do this, I had to make the classes very general so
+                            they could possibly be used in other projects. It would also greatly assist in their
+                            maintainability. I also ran into a problem that involved the front end of this project, so I
+                            worked closely with the web developer to come to a solution that we could both work with.
+                            From this project I learned a lot about maintainability and working with others. I got to be
+                            creative and use my own ideas for this XML generator and the design of the reports. I
+                            demonstrated my problem solving skills and object oriented programming skills that I learned
+                            at university.
+                        </p>
+                    </div>
+                    <div class="second-img-container">
+                        <img class="logo-img" src="images/data-export.png" />
+                    </div>
+                </div>
+                <div class="container" style="margin-top: 0px">
+                    <div class="first-image-container">
+                        <img class="logo-img" src="images/glass.png" />
+                    </div>
+                    <div class="second text-area">
+                        <strong class="header-3-text">Log Viewer</strong>
+                        <p style="text-align: right">
+                            The second project I worked on was a log viewer in TEDS. Tigercat wanted a way to easily
+                            view the logs from every machine, so I made a UI to select a specific log from a chosen
+                            machine and a popup to view that log. The logs were formatted differently depending on when
+                            they were created, as newer logs have updated algorithms and different logging classes.
+                            Therefore I had to make a general function that was able to parse all the log formats. I
+                            also added a keyword search option with the choice to search case sensitive or not. An
+                            option to refine the results by the log level was also created. This level refinement was
+                            able to work alongside the keyword search.
+                        </p>
+                    </div>
+                </div>
+                <div class="container" style="margin-top: 0px">
+                    <div class="first text-area">
+                        <strong class="header-3-text">Graph Display</strong>
+                        <p>
+                            The third project I worked on was also with TEDS. This project tested my ability to apply
+                            the object oriented programming concept of encapsulation. To complete my task I had to
+                            introduce another type of excel graph to the program – one with two y axes. This involved
+                            more information to pass into the functions and more logic needed to create the graph. I
+                            therefore had to expand upon our helper class. I reworked it so that the functions could
+                            handle one y axis as well as an option to include the second y axis data. This made it clear
+                            and concise and didn’t involve any modifying of the logic for the single y axes graphs.
+                        </p>
+                    </div>
+                    <div class="second-img-container">
+                        <img class="graphic-img" src="images/line-graph-excel.png" />
+                    </div>
                 </div>
             </div>
         </div>
