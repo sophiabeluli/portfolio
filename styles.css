@@ -8,9 +8,12 @@
 
 .header-img {
     width: 100%;
-    height: 100px;
+    height: 150px;
     position: relative;
     overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .header-back {
@@ -18,6 +21,21 @@
     background-size: auto;
     background-repeat: repeat;
     background-position: center center;
+}
+
+.name-text {
+    font-size: 42px;
+    font-weight: bold;
+    font-family: monospace;
+}
+
+.name-background {
+    background-color: black;
+    background: rgba(0, 0, 0, 0.6);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 400px;
 }
 
 .rounded {
