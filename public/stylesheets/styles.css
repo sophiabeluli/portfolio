@@ -23,6 +23,20 @@
     background-position: center center;
 }
 
+.footer-div {
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    padding-right: 25%;
+    margin-bottom: 25px;
+}
+
+.footer-back {
+    background: #e0cbbe;
+}
+
 .name-text {
     font-size: 42px;
     font-weight: bold;

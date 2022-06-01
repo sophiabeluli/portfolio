@@ -8,6 +8,7 @@ var indexRouter = require("./routes/index");
 var resumeRouter = require("./routes/resume");
 var tigercatRouter = require("./routes/tigercat");
 var teksideRouter = require("./routes/tekside");
+// var contactRouter = require("./routes/contact");
 
 var app = express();
 
@@ -16,11 +17,14 @@ app.use(express.json());
 app.use(express.urlencoded({ extended: false }));
 app.use(cookieParser());
 app.use(express.static(path.join(__dirname, "public")));
+// app.use(express.static(path.join(__dirname, "node_modules/mdbootstrap/css")));
+// app.use("/scripts", express.static(path.join(__dirname, "index.js")));
 
 app.use("/", indexRouter);
 app.use("/resume", resumeRouter);
 app.use("/work/tigercat", tigercatRouter);
 app.use("/work/tekside", teksideRouter);
+// app.use("/contact", contactRouter);
 
 // catch 404 and forward to error handler
 app.use(function (req, res, next) {
